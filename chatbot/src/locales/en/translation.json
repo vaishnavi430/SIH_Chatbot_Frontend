@@ -1,0 +1,32 @@
+{
+	"appName": "INgres — Groundwater & Soil Assistant",
+	"actions": {
+		"talk": "Talk to INgres",
+		"upload": "Upload document",
+		"type": "Type instead",
+		"newChat": "New Chat",
+		"send": "Send",
+		"settings": "Settings"
+	},
+	"placeholders": {
+		"composer": "Ask about groundwater, soil, crops..."
+	},
+	"voice": {
+		"listening": "Listening...",
+		"tapToSpeak": "Tap and speak"
+	},
+	"ocr": {
+		"extracting": "Extracting text...",
+		"preview": "OCR preview",
+		"confirm": "Use this text"
+	},
+	"errors": {
+		"micPerm": "Microphone permission is needed.",
+		"cameraPerm": "Camera permission is needed.",
+		"offline": "You're offline. We'll send when back online."
+	}
+}
+
+
+
+

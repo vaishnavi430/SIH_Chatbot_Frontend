@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { background: #FBF9F6; }
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+@layer utilities {
+  /* Soft shadow used across the app */
+  .shadow-soft { box-shadow: 0 8px 24px rgba(16,24,40,0.06); }
+
+  /* Brand colors (fallbacks if tailwind config colors aren't loaded) */
+  .bg-primary { --tw-bg-opacity: 1; background-color: rgba(5, 150, 105, var(--tw-bg-opacity)); }
+  .text-primary { color: #059669; }
+  /* Ensure headings using font-heading remain black for better contrast and slightly bolder */
+  .font-heading { color: #000000; font-weight: 600; }
+
+  /* Keep the header title green (original brand green) even when font-heading sets black */
+  header .font-heading { color: #10B981 !important; }
+  .bg-accent { --tw-bg-opacity: 1; background-color: rgba(245, 158, 11, var(--tw-bg-opacity)); }
+  .bg-surface { --tw-bg-opacity: 1; background-color: rgba(255,255,255, var(--tw-bg-opacity)); }
+}
+
+.btn {
+	@apply rounded-2xl px-4 py-3 font-semibold shadow-soft transition active:scale-[0.98];
+}
+
+.btn-primary {
+	@apply bg-primary text-white hover:brightness-110;
+}
+
+.btn-accent {
+	@apply bg-accent text-black hover:brightness-105;
+}
+
+.card {
+	@apply bg-surface rounded-2xl shadow-soft;
+}
+
+
+
+

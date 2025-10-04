@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IN badge logo: green circle with centered white 'IN' text to match header -->
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="INgres logo">
+  <title>INgres logo</title>
+  <defs>
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset dx="0" dy="3" in="SourceAlpha" result="off"/>
+      <feGaussianBlur stdDeviation="4" in="off" result="blur"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.03 0 0 0 0 0.07 0 0 0 0 0.12 0 0 0 0.08 0"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="normal"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <circle cx="60" cy="44" r="36" fill="#10B981" />
+  </g>
+
+  <!-- Centered 'IN' label; use a system sans-serif so it matches header text closely -->
+  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial" font-weight="700" font-size="30">IN</text>
+</svg>

@@ -1,0 +1,12 @@
+{
+	"appName": "INgres — भूजल आणि माती सहाय्यक",
+	"actions": {"talk": "INgres शी बोला","upload": "दस्तऐवज अपलोड करा","type": "टाइप करा","newChat": "नवीन चॅट","send": "पाठवा","settings": "सेटिंग्ज"},
+	"placeholders": {"composer": "भूजल, माती, पिके विचारा..."},
+	"voice": {"listening": "ऐकत आहे...","tapToSpeak": "टॅप करा आणि बोला"},
+	"ocr": {"extracting": "मजकूर काढत आहे...","preview": "OCR पूर्वदर्शन","confirm": "हा मजकूर वापरा"},
+	"errors": {"micPerm": "मायक्रोफोन परवानगी हवी.","cameraPerm": "कॅमेरा परवानगी हवी.","offline": "आपण ऑफलाइन आहात. नेट आल्यावर पाठवू."}
+}
+
+
+
+
